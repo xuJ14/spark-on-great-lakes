@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=spark-cluster-with-jupyter
-#SBATCH --account=support        # change to your account
+#SBATCH --account=junxuj       # change to your account
 #SBATCH --partition=standard
 #SBATCH --nodes=1                # node count, change as needed
 #SBATCH --ntasks-per-node=1      # do not change, leave as 1 task per node
